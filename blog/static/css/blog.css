@@ -10,6 +10,7 @@
     text-decoration: none;
 }
 
+
 .content {
     margin-left: 40px;
 }
@@ -21,6 +22,12 @@ h1 {
 h2, h3, h4 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+}
+
+.under-construction h3{
+    font-family: 'Space Mono', monospace;
+    color: crimson;
+    padding: 20px 20px 20px 40px;
 }
 
 .date {
