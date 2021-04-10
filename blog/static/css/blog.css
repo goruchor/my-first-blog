@@ -1,5 +1,5 @@
 .page-header {
-    background-color: chocolate;
+    background-color: MidnightBlue;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -14,12 +14,17 @@
     margin-left: 40px;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+h1 {
+    font-family: 'Space Mono', monospace;
+}
+
+h2, h3, h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 .date {
-    color: turquoise;
+    color: cornflowerblue;
 }
 
 .save {

@@ -12,5 +12,10 @@
         {% endif %}
         <h2>{{ post.title }}</h2>
         <p>{{ post.text|linebreaksbr }}</p>
+        {% if post.code %}
+        <pre class="prettyprint lang-py">
+            <p>{{ post.code|linebreaksbr }}</p>
+        </pre>
+        {% endif %}
     </div>
 {% endblock %}
